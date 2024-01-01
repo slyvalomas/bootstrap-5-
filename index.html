@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning bootstrap v5 with sass</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawsem.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
+</head>
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="logo img"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">faq</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">contact</a>
+                    </li>
+                  </ul>
+              <button type="button" class="rounded-pill btn-rounded">+1 728365413
+                <span><i class="fas fa-phone-alt"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="home" class="intro-sec"><container>
+        <div class="row align-items-center text-white">
+            <div class="col-md-6 intros">
+                <h1 class="display-2">
+                    <span class="display-2--intros">hey im brahim</span>
+                    <span class="display-2--description lh-base"> this is a multi-purpose responsive layout created with bootstrap v5. 
+                        (here your can place your description text)</span>
+                </h1>
+                <button type="button" class="rounded-pill btn-rounded"> Get in Touch
+                    <span><i class="fas fa-arrow-right"></i></span>
+                  </button>
+            </div> 
+            <div class="col-md-6 intros text-end">
+                <div class="video-box">
+                  <img src="img/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
+                  <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+                    <span>
+                      <i class="fas fa-play-circle"></i>
+                    </span>
+                    <span class="border-animation border-animation--border-1"></span>
+                    <span class="border-animation border-animation--border-2"></span>
+                  </a>
+                </div>
+              </div>
+        </div>
+        
+      </container>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L40,64C80,96,160,160,240,181.3C320,203,400,181,480,149.3C560,117,640,75,720,74.7C800,75,880,117,960,154.7C1040,192,1120,224,1200,208C1280,192,1360,128,1400,96L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      </section>
+      <section id="campanies" class="campanies">
+        <div class="container">
+            <div class="row text-center">
+                <h4 class="fw-bols lead mb-3">trusted by campanies like</h4>
+                <span class="heading-line"></span>
+            </div>
+        </div>
+      </section>
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=3peALWiKnb0',
+            'type': 'video',
+            'source': 'youtube',
+            'width': 900,
+            'autoPlayVideos':true,
+});
+    </script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

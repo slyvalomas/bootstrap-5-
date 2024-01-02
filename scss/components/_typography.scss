@@ -45,8 +45,28 @@
         .row{
             h4{
                 font-family: 'Poppins', sans-serif;
-                font-weight: 700;
-            }
         }
     }
+}
+}
+.display-3{
+    font-family: 'Poppins', sans-serif;
+    &--title{
+       
+        font-size: 1.2rem;
+        @include media-breakpoint-up(lg){
+            font-size: 1.8rem;
+        }
+        text-transform: capitalize;
+        font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background-clip: text;
+    background-image: linear-gradient(to right,$primary,$secondary);
+    display: inline-block;
+    -webkit-text-fill-color: transparent;
+    }
+}
+.border-right{
+    border-right: 0.1rem solid $gray-300;
+    height: 100%;
 }
